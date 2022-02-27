@@ -1,0 +1,52 @@
+body {
+    background-color: #001a1b;
+    font-family: verdana, sans-serif;
+    font-size: 14px; /*needs adjustment to fit smaller screen*/
+}
+
+h1 {
+    color: #948b82;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+h2 {
+    color: #948b82;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.image{    /*Added to try to center the image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;     /*causes problem if the screen is shrinking*/
+}
+
+.text {     /* To make the text goes in front of image*/
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 80px;
+    background: rgba(0, 0, 0, 0.5); /*making background transparent*/
+    color: #948b82;
+    width: 25%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.moreStuff {
+    color: #948b82;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.button {
+    width: 60px;
+    height: 30px;
+    background-color: #948b82;
+    color: #001a1b
+}
